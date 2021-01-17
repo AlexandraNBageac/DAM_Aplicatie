@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ColorPaletteFragment">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            >
+
+            <TextView
+                android:id="@+id/Color01"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#FFAEBC"
+                android:gravity="center"
+                android:padding="20dip"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/Color02"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#A0E7E5"
+                android:gravity="center"
+                android:padding="20dip"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/Color03"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="#B4F8C8"
+                android:gravity="center"
+                android:padding="20dip"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/Color04"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="#FBE7C6"
+                android:gravity="center"
+                android:padding="20dip"
+                android:textColor="#000000" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/ColorHex01"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:padding="5dip"
+                android:text="#FFAEBC"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/ColorHex02"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:padding="5dip"
+                android:text="#A0E7E5"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/ColorHex03"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:padding="5dip"
+                android:text="#B4F8C8"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/ColorHex04"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:padding="5dip"
+                android:text="#FBE7C6"
+                android:textColor="#000000" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

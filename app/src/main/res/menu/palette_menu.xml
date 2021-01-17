@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/delete_item"
+        android:title="@string/delete_item"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/mark_item"
+        android:title="@string/mark_palette"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/unmark_item"
+        android:title="@string/unmark_palette"
+        app:showAsAction="always"/>
+</menu>

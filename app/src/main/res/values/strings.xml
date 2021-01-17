@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">GlazeStrip</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_history">History</string>
+
+
+    <string name="logout_menu">Logout</string>
+    <string name="delete_item">Delete</string>
+    <string name="mark_palette">Mark palette</string>
+    <string name="rename">Rename</string>
+    <string name="back"><![CDATA[<]]></string>
+    <string name="unmark_palette">Undo mark on palette</string>
+    <string name="filter">Filter</string>
+    <string name="show_all">Show All</string>
+</resources>

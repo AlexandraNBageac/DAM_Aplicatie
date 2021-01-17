@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "247704439280",
+    "project_id": "colorpalettegenerator",
+    "storage_bucket": "colorpalettegenerator.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:247704439280:android:4102b2413c830991ab3535",
+        "android_client_info": {
+          "package_name": "com.example.colorpalettegenerator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "247704439280-ovp03eu17nsu72orqk4thsm816r51po8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.colorpalettegenerator",
+            "certificate_hash": "510737b53eea0c5260639d23df1a5af2d176df9a"
+          }
+        },
+        {
+          "client_id": "247704439280-ra9p0kiri2hqrptkngd3k0d26scoqjre.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2r8Ir9W0WVMctOjVlUPfCFC7E15YnQs8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "247704439280-ra9p0kiri2hqrptkngd3k0d26scoqjre.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
